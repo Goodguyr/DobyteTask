@@ -2,5 +2,6 @@
 
 pip install conan
 
-conan install . --build=missing
+conan install . --build=missing 
+
 conan build . && ./build/Release/./main
